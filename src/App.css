@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0a0612;
+}
+.Header {
+  background-color: #624594;
+  margin-top: 40px;
+  margin: 40px auto auto;
+  padding: 20px;
+  opacity: 0.7;
+  text-align: center;
+  height: 15%;
+  width: 80%;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.meme-body {
+  background-color: #af94dfda;
+  width: 80%;
+  height: 60%;
+  margin: 40px auto auto;
+  padding: 20px;
+}
+.meme-body:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 80%;
+  height: 50%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .meme-body {
+    width: auto;
+  }
+  .column {
+    width: 100%;
+  }
+  .input-body > input {
+    width: 70%;
+  }
+  .input-body > button {
+    width: 40%;
+    margin: 40px 67px;
+  }
+  .img {
+    width: 70%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .meme-body {
+    width: auto;
+  }
+  .column {
+    width: 100%;
+  }
+  .input-body > input {
+    width: 70%;
+  }
+  .input-body > button {
+    width: 40%;
+    margin: 5% 18%;
+  }
+  .img {
+    width: 70%;
+    height: auto;
+  }
+}
+input {
+  display: block;
+  margin: 20px;
+  width: 400px;
+  padding: 10px;
+  font-size: larger;
+}
+input[type="text"]::placeholder {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 30px 110px;
+  width: 250px;
+  padding: 10px;
+  font-size: medium;
+}
+.meme-img {
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.meme-img > img {
+  width: 80%;
+  height: 60%;
+}
+.toptext {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0 5px;
+  left: 40%;
+  transform: translate(-50%, -30%);
+  font-family: impact, sans-serif;
+  font-size: 4vh;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottomtext {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  left: 40%;
+  transform: translate(-45%, -160%);
+  font-family: impact, sans-serif;
+  font-size: 4vh;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
