@@ -5,6 +5,7 @@
 body {
   background-color: #0a0612;
 }
+/*-----Header----{Header.js}*/
 .Header {
   background-color: #624594;
   margin-top: 40px;
@@ -18,6 +19,9 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+/*-----Meme Body----{Content.js}
+*Split the body into 2 columns and change to 1 when device width smaller.
+*/
 .meme-body {
   background-color: #af94dfda;
   width: 80%;
@@ -74,6 +78,7 @@ body {
     height: auto;
   }
 }
+/*-----Input and button {Content.js}----*/
 input {
   display: block;
   margin: 20px;
@@ -91,6 +96,7 @@ button {
   padding: 10px;
   font-size: medium;
 }
+/*-----Meme Image and text {Content.js}----*/
 .meme-img {
   position: relative;
   margin: auto;
@@ -101,6 +107,7 @@ button {
   width: 80%;
   height: 60%;
 }
+/*Transform is used to shift the text accordingly for top and bottom.*/
 .toptext {
   position: absolute;
   align-items: center;
